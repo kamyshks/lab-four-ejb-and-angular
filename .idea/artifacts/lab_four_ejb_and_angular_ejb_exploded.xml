@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="lab-four-ejb-and-angular:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab_four_ejb_and_angular_ejb_exploded.rar</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lab-four-ejb-and-angular/ejb/EJB" />
+      <element id="module-output" name="lab-four-ejb-and-angular" />
+    </root>
+  </artifact>
+</component>
