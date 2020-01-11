@@ -1,0 +1,53 @@
+.text{
+  background: darkgoldenrod;
+  margin-left: 32%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  margin-top: 10%;
+  display: inline-block;
+  font-size: 30px;
+  color:azure;
+  font-family: Alumna;
+  padding: 20px;
+  width: 40%
+}
+@font-face {
+  font-family: Alumna;
+  src: url(../../fonts/ALS-Alumna.otf);
+}
+body {
+  height: 100%;
+  background: url(../../patterns/anotherside.png)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#authorization{
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+#autho{
+  padding:34%;
+  font-size: 22px;
+  text-decoration: none;
+  color:azure;
+}
+.ui-button-warning{
+  background: transparent;
+  color: azure;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  font-family: Alumna;
+}
+
+.input{
+  height: 37px;
+  width: 76%;
+  font-family: Alumna;
+  font-size: 25px;
+}
+input::-webkit-input-placeholder {
+  color: darkgoldenrod;
+}

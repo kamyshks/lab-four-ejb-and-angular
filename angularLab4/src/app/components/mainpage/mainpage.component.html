@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8" lang = "rus">
+  <title> Лабораторная 4</title>
+</head>
+<body style = "background-size: 100%;">
+  <button id = "logout" label="Выйти" pButton type="button" class="ui-button-warning"></button>
+  <app-canvas #canvas></app-canvas>
+  <app-coordinates (changedR)="canvas.draw($event)"></app-coordinates>
+
+  <button id = "restart" label="Обновить" pButton type="button" class="ui-button-warning"></button>
+  <app-table></app-table>
+  <br><br><br>
+</body>
+
+</html>
