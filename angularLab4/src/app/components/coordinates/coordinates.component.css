@@ -1,0 +1,42 @@
+#coordinates{
+  font-family: Alumna;
+  font-size: 23px;
+  color: azure;
+  background: darkgoldenrod;
+  width: 450px;
+  height:450px;
+  margin-left: 60%;
+  margin-top: -563px;
+  margin-bottom: 14%;
+  border: 2px solid azure;
+}
+
+:host ::ng-deep .prime-slider-override {
+  /*background-color: darkslategray;*/
+  width: 14em;
+  margin: 5px 0 5px 20px;
+}
+
+:host ::ng-deep .prime-slider-override .ui-slider-range {
+  background: darkslategray;
+}
+
+:host ::ng-deep p-radioButton .ui-radiobutton .ui-state-active  {
+  background-color: darkslategray;
+  border-color: blanchedalmond;
+}
+
+:host ::ng-deep p-radioButton .ui-radiobutton .ui-state-focus {
+  background-color: darkslategray;
+  border-color: blanchedalmond;
+}
+
+.ui-button-warning{
+  background: darkslategray;
+  color: azure;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: Alumna;
+  margin-left: 32%;
+  border: 2px solid blanchedalmond;
+}

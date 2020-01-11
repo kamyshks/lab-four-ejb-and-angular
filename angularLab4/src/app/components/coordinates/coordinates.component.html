@@ -1,0 +1,49 @@
+<<div id = "coordinates">
+<!--  <form>-->
+    <br>
+    <span>Выберите Х</span>
+    <table>
+      <tr>
+        <td><td><p-radioButton name="inputX" class = "inputX" value="-3" label = "-3" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="-2" label = "-2" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="-1" label = "-1" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="0" label = "0" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="1" label = "1" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="2" label = "2" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="3" label = "3" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="4" label = "4" [(ngModel)]="selectedValueX"></p-radioButton></td>
+        <td><td><p-radioButton name="inputX" value="5" label = "5" [(ngModel)]="selectedValueX"></p-radioButton></td>
+      </tr>
+    </table>
+    <span>Выберите Y</span>
+    <p-slider [(ngModel)]="valueY" styleClass="prime-slider-override" [min]="-5" [max] = "5" [step] = "1"></p-slider>
+    <span>Выберите R</span>
+    <table>
+      <tr>
+        <td><p-radioButton name="inputR" value="-3" label = "-3" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="-2" label = "-2" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="-1" label = "-1" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="0" label = "0" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="1" label = "1" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="2" label = "2" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="3" label = "3" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="4" label = "4" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+        <td><p-radioButton name="inputR" value="5" label = "5" [(ngModel)]="selectedValueR" (click)="redraw()"></p-radioButton></td>
+      </tr>
+    </table>
+<!--  </form>-->
+  <table>
+    <tr>
+      <td>X</td>
+      <td>Y</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>{{selectedValueX}}</td>
+      <td>{{valueY}}</td>
+      <td>{{selectedValueR}}</td>
+    </tr>
+  </table>
+  <br><br>
+  <button id = "Shoot" label="Пиу-пиу!" pButton type="button" class="ui-button-warning"></button>
+</div>

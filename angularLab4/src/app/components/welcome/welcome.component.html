@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Лабораторная 4</title>
+  <meta charset="UTF-8" lang = "rus">
+  <base href="/welcome/" />
+</head>
+<body style = "background-size: 100%;">
+<div class = "text" >
+  <p style="font-size: 25px">Лабораторная работа 4. <br>Камышанская Ксения и Гогидзе Полина, гр.Р3212, в.131314</p>
+  <a id = "autho" href = "#authorization"> Авторизация </a>
+</div>
+<div class = "text" id = "authorization">
+  <form>
+
+    <p> Логин:   <input  id = "login" class = "input" type="text" pInputText placeholder="login(email)"/>
+      <!--                         [(ngModel)]="text"> <span id="text">{{text}}</span>  -->
+    </p>
+    <p> Пароль: <input id = "password" class = "input" type="password" placeholder="password" pInputText /></p>
+    <form>
+      <button id = "enter" label="Войти" pButton type="button" class="ui-button-warning"></button> <br><br>
+    </form>
+    <app-registration></app-registration>
+
+  </form>
+</div>
+</body>
+</html>
